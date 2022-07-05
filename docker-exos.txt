@@ -1,0 +1,7 @@
+1. Créer un script shell (exo1_start.sh) produisant 2 conteneurs redis dans deux version différentes 
+ainsi que 2 conteneurs mysql dans version différentes (attention, variable d'env MYSQL_ROOT_PASSWORD, -e)
+Créer le script arrêtant et supprimant ces conteneurs (exo1_destroy.sh)
+
+2. Construire (Dockerfile) une image personnalisée basée sur redis:6.2
+Cette image devra disposer des commandes curl, zip et ps.
+Nommer cette image oxibis/myredis:0.1
