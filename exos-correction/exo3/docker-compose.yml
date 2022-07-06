@@ -1,0 +1,25 @@
+version: '3'
+services:
+  
+  calculator:
+    image: oxibis/calculator:1
+    container_name: oxibis_calc
+    ports:
+    - 4040:80
+    networks:
+    - mynetwork
+  
+  redis:
+    build:
+      context: redis
+      dockerfile: redis.dockerfile
+    image: oxibis/myredis
+    container_name: oxibis_redis
+    ports:
+    - 6379:6379
+    networks:
+    - mynetwork
+
+networks:
+  mynetwork:
+    name: calculator

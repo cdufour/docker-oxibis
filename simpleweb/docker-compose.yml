@@ -1,0 +1,23 @@
+version: '3'
+services:
+
+  web:
+    build: .
+    image: oxibis/simpleweb
+    ports:
+    - 3000:3000
+    depends_on:
+    - redis
+    restart: on-failure
+    volumes:
+    - "./public:/app/public"
+
+  # attention au nom du service pour la résolution DNS
+  redis:
+    image: redis:5-alpine
+    restart: on-failure
+    volumes:
+    - redis_data:/data
+
+volumes:
+  redis_data: {}

@@ -3,6 +3,10 @@ const redis = require('redis'); // client redis
 const app = express();
 const port = 3000;
 
+// middleware
+// le client peut directement requêter tout ce qui se trouve dans le dossier "public"
+app.use(express.static('public'));
+
 // routes (endpoints)
 app.get('/', (req, res) => res.send('coucou !!!'));
 
@@ -32,6 +36,11 @@ app.get('/visit', (req, res) => {
 
   })
 
+})
+
+app.get('/crash', (req, res) => {
+  process.exit(1); // fin du processus nodejs
+  res.send('adieu !');
 })
 
 app.listen(port, () => console.log('Server listening on port ' + port));
