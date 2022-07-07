@@ -3,16 +3,16 @@
 ## Vidéos enregistrées durant le stage (ouvrir avec Chrome)
 
 ### Jour 2
-- [Partie 1](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-05-docker-j2-1)
-- [Partie 2](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-05-docker-j2-2)
-- [Partie 3](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-05-docker-j2-3)
-- [Partie 4](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-05-docker-j2-4)
+- [Partie 1](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-05-docker-j2-1.webm)
+- [Partie 2](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-05-docker-j2-2.webm)
+- [Partie 3](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-05-docker-j2-3.webm)
+- [Partie 4](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-05-docker-j2-4.webm)
 
 ### Jour 3
-- [Partie 1](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-06-docker-j3-1)
-- [Partie 2](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-06-docker-j3-2)
-- [Partie 3](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-06-docker-j3-3)
-- [Partie 4](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-06-docker-j3-4)
+- [Partie 1](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-06-docker-j3-1.webm)
+- [Partie 2](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-06-docker-j3-2.webm)
+- [Partie 3](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-06-docker-j3-3.webm)
+- [Partie 4](https://opusidea-training.s3.eu-west-3.amazonaws.com/divers/2022-07-06-docker-j3-4.webm)
 
 ## Liens utiles
 - [Top 8 Docker Best Practices for using Docker in Production](https://youtu.be/8vXoMqWgbQQ)
