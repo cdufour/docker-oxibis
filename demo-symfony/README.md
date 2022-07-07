@@ -45,4 +45,4 @@ Création entité + migration + crud
   symfony console make:crud Test
 ```
 
-__Tester en requêtant: http://<ip>:9000/test__
+__Tester en requêtant: http://[localhost | ip]:9000/test__
