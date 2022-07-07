@@ -1,0 +1,24 @@
+version: '3.9'
+services:
+
+  php8-sf6:
+    image: oxibis/php8-sf6:latest
+    container_name: php8-sf6
+    ports:
+    - 9000:8000
+    volumes:
+    - "./project:/var/www/html"
+
+  database:
+    image: postgres:13-alpine
+    ports:
+    - "5432"
+    environment:
+      POSTGRES_DB: oxibis
+      POSTGRES_USER: oxibis
+      POSTGRES_PASSWORD: oxibis
+    volumes:
+    - postgres_data:/var/lib/postgresql/data:rw
+
+volumes:
+  postgres_data: {}

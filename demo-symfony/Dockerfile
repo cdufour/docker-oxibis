@@ -27,6 +27,7 @@ RUN npm install --global yarn
 RUN git config --global user.email "you@example.com" \
     &&  git config --global user.name "Your Name"
 
+# force le conteneur à rester "actif" (principe de boucle infinie)
 CMD tail -f /dev/null
 
 WORKDIR /var/www/html/

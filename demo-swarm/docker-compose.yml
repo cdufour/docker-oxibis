@@ -1,0 +1,14 @@
+version: '3'
+services:
+  calculator:
+    image: opusidea/oxibis-calculator:1
+    ports:
+    - 4040:80
+    deploy:
+      mode: replicated
+      replicas: 2
+      resources:
+        limits:
+          memory: 128M
+        reservations:
+          memory: 32M

@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+
+  php8-sf6:
+    ports:
+    - 9500:8000
+    environment:
+      ENV_DEMO: test
